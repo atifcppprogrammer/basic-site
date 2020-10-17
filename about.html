@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>about.html</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu" rel="stylesheet"> 
+    <link rel = "stylesheet" href = "/index.css">
+  </head>
+  <body>
+    <div id = "about-page-container" align = "center">
+      <h1>About</h1>
+      <div align = "justify">
+        This is an implementation of the <strong>basic information site</strong> mini project
+	completed as part of the Node.js lessons provided as part of <strong>The Odin Project
+	</strong>'s full stack Javascript curriculum. The project did not stipulate all the 
+	bouncy css animations or even populating this any other pages with a lot of content 
+	but i had some free time on my hands so i decided to do it anyway. <br> <br>
+	<div align = "center">
+	  <button class = "info-app-button">Home</button>
+	</div>
+      </div>
+    </div>
+  </body>
+  <script type = "text/javascript">
+    const button = document.querySelector('.info-app-button');
+    button.addEventListener('click', () => window.open('/', '_self'));
+  </script>
+</html>
